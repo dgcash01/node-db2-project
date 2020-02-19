@@ -1,7 +1,7 @@
 exports.seed = function(knex) {
-  return knex('table_name').del()
+  return knex('cars').del()
     .then(function () {
-      return knex('table_name').insert([
+      return knex('cars').insert([
         {
           id: 1, 
           VIN: 'JTDKN3DU0E1796100',
